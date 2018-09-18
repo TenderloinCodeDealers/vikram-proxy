@@ -1,0 +1,30 @@
+body {
+  display: grid;
+}
+
+#container {
+  width: 85%;
+  margin: auto;
+}
+
+#Carousel {
+  width: 68.5%;
+}
+
+#ratingsAndReviews {
+  width: 34%;
+}
+
+#RVDeals {
+  overflow-x: scroll;
+  height: 310px;
+  width: 51%;
+  margin-top: 1%;
+}
+
+#SideBar {
+  position: fixed;
+  top: 0;
+  left: 64%;
+  width: 15%;
+}
