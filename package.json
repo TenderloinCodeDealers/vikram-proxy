@@ -1,0 +1,28 @@
+{
+  "name": "vikram-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server connecting all 4 modules of Vourcher into on page",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "codecov": "^3.1.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.5.0",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.2"
+  }
+}
