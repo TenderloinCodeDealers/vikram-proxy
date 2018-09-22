@@ -1,0 +1,11 @@
+# Directories to ignore
+node_modules
+npm-debug.log
+
+# Files to ignore
+.eslintrc.json
+.gitignore
+.nvmrc
+.prettierrc
+jest.config.js
+README.md
