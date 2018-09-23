@@ -4,12 +4,14 @@
   "description": "A proxy server connecting all 4 modules of Vourcher into on page",
   "main": "server/server.js",
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "node server/server.js",
+    "start:dev": "nodemon server/server.js",
     "test": "jest"
   },
-  "author": "",
+  "author": "Vikram Raja",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.3",
     "express": "^4.16.3"
   },
   "devDependencies": {
